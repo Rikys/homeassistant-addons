@@ -1,0 +1,8 @@
+name: "Kea DHCP"
+description: "Modern, open source DHCPv4 & DHCPv6 server"
+version: "0.0.1"
+slug: "kea_dhcp"
+init: false
+arch:
+  - aarch64
+  - amd64
