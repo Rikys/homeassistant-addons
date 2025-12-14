@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 RUN \
   apk add --no-cache \
-    isc-kea
+    kea
 
 COPY run.sh /
 RUN chmod a+x /run.sh
